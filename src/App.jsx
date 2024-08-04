@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div id="root">
+    <div>
       <Header />
       <div className="main-container">
         <div>
