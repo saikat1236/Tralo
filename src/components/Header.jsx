@@ -5,7 +5,7 @@ import './Header.css'; // Optional: if you have a CSS file for styling
 const Header = () => {
   return (
     <header className="header">
-      <h1>My App</h1>
+      <h1>Trelo</h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
