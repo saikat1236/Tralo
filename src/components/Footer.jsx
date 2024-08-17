@@ -17,7 +17,7 @@ const Footer = () => {
             Submit
           </button>
         </div>
-        <p className="pt-12">&copy; {new Date().getFullYear()} Diptanu. All rights reserved.</p>
+        <p className="pt-12">&copy; {new Date().getFullYear()} Diptanu and adwaita. All rights reserved.</p>
       </div>
     </footer>
   );
