@@ -12,9 +12,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-800 text-white py-4 shadow-lg fixed top-0 left-0 w-full z-50">
+    <header className="bg-transparent text-white py-4 shadow-lg fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <h1 className="text-3xl font-bold">Trelo</h1>
+        <h1 className="text-3xl  font-bold">Trelo</h1>
         <button
           className="show lg:hidden text-white focus:outline-none"
           onClick={toggleMenu}
