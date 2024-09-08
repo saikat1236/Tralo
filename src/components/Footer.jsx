@@ -8,8 +8,8 @@ import {FaLinkedin} from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-transparent  text-white py-8 px-4">
-      <div className="container  text-center ">
-        <div className="flex flex-col lg:flex-row lg:ml-96 items-center mt-28  ">
+      <div className="container  text-center  ">
+        <div className="flex flex-col lg:flex-row lg:ml-72 items-center mt-28  ">
           <input
             className="rounded-xl w-full max-w-md h-11 text-black pl-4 mb-4"
             type="email"
