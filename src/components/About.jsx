@@ -19,7 +19,7 @@ const About = () => {
             <h3 className="text-2xl font-bold text-gray-800 pt-16 mb-2">Saikat Biswas</h3>
             <p className="text-gray-600 font-semibold mb-2">Founder of Trelo, Project Manager, Founder & Tutor of INCLUDE-IT</p>
             <p className="text-gray-600">Saikat Biswas is a skilled Full Stack Web Developer at Drapo with expertise in leading projects and developing innovative solutions. An NIT graduate of 2023, he combines technical expertise with a strong problem-solving mindset to deliver high-quality web applications.</p>
-            <a href="https://www.linkedin.com/in/saikat1236/"><FaLinkedin className="size-6 rounded"/> </a>
+            <a href="https://www.linkedin.com/in/saikat1236/"><FaLinkedin className="size-6 rounded "/> </a>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ const About = () => {
             <h3 className="text-2xl font-bold text-gray-800 pt-16  mb-2">Ankita Debnath</h3>
             <p className="text-gray-600 font-semibold mb-2">Co-Founder of Trelo, Student of INCLUDE-IT</p>
             <p className="text-gray-600 pb-28">Ankita Debnath is a Frontend Web Developer currently pursuing a BTech in Electronics and Instrumentation Engineering at NIT Agartala.</p>
-            <a href="https://www.linkedin.com/in/ankita-debnath-b74490266/"><FaLinkedin className="size-6 rounded"/> </a>
+            <a href="https://www.linkedin.com/in/ankita-debnath-b74490266/"><FaLinkedin className="size-6 rounded "/> </a>
           </div>
         </div>
 
