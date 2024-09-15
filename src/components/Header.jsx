@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi'; // i react-icons in terminal
 
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,7 +15,7 @@ const Header = () => {
   return (
     <header className="bg-transparent text-white py-4 shadow-lg fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <h1 className="text-3xl  font-bold">Trelo</h1>
+        <h1 className="text-3xl text-cyan-100 rounded-lg font-serif font-black ">Trelo</h1>
         <button
           className="show lg:hidden text-white focus:outline-none"
           onClick={toggleMenu}
@@ -51,6 +52,7 @@ const Header = () => {
                 Services
               </Link>
             </li>
+          
           </ul>
         </nav>
       </div>
