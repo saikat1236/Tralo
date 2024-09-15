@@ -79,13 +79,13 @@ const About = () => {
         <div className="relative mt-36 flex flex-col items-center">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10">
             <div className="w-64 h-64 mt-[-7rem] shadow-slate-600 shadow-xl overflow-hidden rounded-full ">
-              <img className="w-full h-full object-cover" src="/Asmita.jpeg" alt="Diptanu Sarkar" />
+              <img className="w-full h-full object-cover" src="/Ash.jpg" alt="Diptanu Sarkar" />
             </div>
           </div>
           <div className="bg-red-100 rounded-lg shadow-black shadow-xl p-6 mt-20 text-center w-full max-w-sm relative z-0">
             <h3 className="text-2xl font-bold text-gray-800 pt-16 mb-2">Asmita Banik 🗿</h3>
-            <p className="text-gray-600 font-semibold mb-2">Co-Founder of Trelo, Founder of Pagli Organisation, Student of INCLUDE-IT</p>
-            <p className="text-gray-600">Asmita Banik is a  Web Developer currently studying in the CSE Department at NIT Agartala.</p>
+            <p className="text-gray-600 font-semibold mb-2">Co-Founder of Trelo, Student of INCLUDE-IT</p>
+            <p className="text-gray-600">Asmita Banik is a MERN STACK  Developer currently studying in the CSE Department at NIT Agartala.</p>
           </div>
         </div>
 
