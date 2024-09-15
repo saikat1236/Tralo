@@ -3,6 +3,7 @@
 
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import {FaLinkedin} from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -42,7 +43,9 @@ const About = () => {
               <img className="w-full h-full object-cover" src="/Diptanu.jpeg" alt="Diptanu Sarkar" />
             </div>
           </div>
-          <div className="bg-red-100 rounded-lg shadow-black shadow-xl p-6 mt-20 text-center w-full max-w-sm relative z-0">
+          <div className="bg-red-100 rounded-lg shadow-black shadow-xl p-6 mt-20 text-center w-full max-w-sm relative z-0"> 
+                   <a className="" href="https://www.linkedin.com/in/diptanu-sarkar-0a209026a/"> <FaLinkedin className='text-blue-300' /></a>
+
             <h3 className="text-2xl font-bold text-gray-800 pt-16 mb-2">Diptanu Sarkar</h3>
             <p className="text-gray-600 font-semibold mb-2">Co-Founder of Trelo, Student of INCLUDE-IT</p>
             <p className="text-gray-600">Diptanu Sarkar is a MERN Stack Developer currently studying in the EE Department at NIT Agartala.</p>
