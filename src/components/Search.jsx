@@ -8,7 +8,7 @@ function Search( ) {
     const {fromstation ,tostation,todate}=location.state
   return (
     <div className='bg-transparent py-8'>
-      <div className="bg-slate-100 py-12 px-4 rounded-lg mt-28 items-center gap-4 flex justify-center flex-col sm:flex-row shadow-lg max-w-4xl mx-auto">
+      <div className="bg-gradient-to-br from-cyan-300 via-slate-200 to-purple-300 shadow-black shadow-2xl py-12 px-4 rounded-lg mt-28 items-center gap-4 flex justify-center flex-col sm:flex-row shadow-lg max-w-4xl mx-auto">
         
     
         <div className="flex flex-col items-center">
