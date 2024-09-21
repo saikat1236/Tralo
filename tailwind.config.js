@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
  
-    extend: { backgroundImage:{'my-img':"url('/src/photos/lake-4839058_1920.jpg')"
+    extend: { backgroundImage:{'my-img':"url('src/photos/Train.jpg')"
     },
     
   },
