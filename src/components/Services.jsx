@@ -5,13 +5,14 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <section className="bg-gradient-to-br from-cyan-300 via-slate-200 to-purple-300 pt-4 mt-32 mb-20 shadow-black shadow-2xl py-12 px-6 md:py-16 md:px-12 rounded-lg max-w-5xl mx-auto">
-      <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-6 tracking-wide leading-tight">
+    <section className="  bg-gradient-to-br from-cyan-300 via-slate-200 to-purple-300 pt-4 mt-32 mb-20  shadow-black shadow-2xl py-12 px-6 md:py-16 md:px-12 rounded-lg max-w-5xl mx-auto">
+      <h1 className=" text-4xl font-extrabold text-center  text-gray-800 mb-6 tracking-wide leading-tight">
         Our Services
         <p className="text-2xl mt-2 font-semibold text-gray-700">Redefining Train Route Navigation</p>
       </h1>
       
       <div className="text-lg text-gray-700 leading-relaxed mb-6">
+        <img src='src/photos/unnamed.png' className='rounded shadow-lg shadow-black mb-6'/>
         <p className="mb-4">
           At <span className="font-bold text-teal-600">Trelo</span>, we are committed to revolutionizing how you plan your train journeys. 
           Traditional train route websites often leave you stranded if no direct route exists. They simply display <em className="text-red-600">“No routes available”</em>, 

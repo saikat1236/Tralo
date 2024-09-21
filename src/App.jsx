@@ -6,7 +6,7 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import Home from './components/Home.jsx';
 import Search from './components/Search.jsx';
-
+import Contact from './components/contact.jsx';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/search" element={<Search />} />
-            
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
         <Footer />

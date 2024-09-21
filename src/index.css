@@ -6,6 +6,10 @@
 
 @layer base {
     body {
-       @apply bg-my-img bg-fixed  /*bg-cover bg-center min-h-screen*/ ; 
-    }
+      
+    
+      @apply   bg-my-img bg-cover brightness-75 contrast-125 bg-fixed;
+    } 
   }
+
+  
