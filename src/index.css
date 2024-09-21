@@ -6,6 +6,6 @@
 
 @layer base {
     body {
-      @apply bg-my-img bg-fixed;
+       @apply bg-my-img bg-fixed  /*bg-cover bg-center min-h-screen*/ ; 
     }
   }
