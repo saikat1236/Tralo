@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
  
+
+ 
     extend: { backgroundImage:{'my-img':"url('src/photos/Train.jpg')"
+
     },
     
   },
