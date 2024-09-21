@@ -26,7 +26,7 @@ const About = () => {
         <div className="relative  flex flex-col items-center">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-10">
             <div className="w-64 h-64 mt-[-7rem] shadow-slate-600 shadow-xl  overflow-hidden rounded-full ">
-              <img className="w-full h-full object-cover" src="/src/photos/ankita.jpeg" alt="Ankita Debnath" />
+              <img className="w-full h-full object-cover brightness-200" src="/src/photos/ankita.jpeg" alt="Ankita Debnath"  />
             </div>
           </div>
           <div className="bg-red-100 rounded-lg shadow-black shadow-xl p-6 mt-20 text-center w-full max-w-sm relative z-0">
