@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 /* src/styles/globals.css */
-
-
+/* 
+html, body {
+  @apply min-h-screen   ;
+}
 @layer base {
-    body {
-      
-    
-      @apply   bg-my-img bg-opacity-15 bg-cover brightness-75 contrast-125 bg-fixed;
-    } 
+  body {
+    @apply relative min-h-screen bg-my-img bg-cover  bg-center bg-fixed;
   }
+
+  body::before {
+    @apply absolute inset-0 bg-black bg-opacity-60;
+    content: '';
+    z-index: -1;
+  }
+} */
+
+
+
+  
+
 
   
