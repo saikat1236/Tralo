@@ -8,7 +8,7 @@ function Search( ) {
     const {fromStation ,toStation,toDate}=location.state
   return (
     <div className="relative mt-10 bg-white py-16 px-4 w-full flex justify-center items-center ">
-    <div className="bg-gray-100 shadow-black py-12 px-6 rounded-lg flex flex-col gap-6 shadow-lg max-w-6xl mx-auto">
+    <div className="bg-white shadow-black py-12 px-6 rounded-lg flex flex-col gap-6 shadow-lg max-w-6xl mx-auto">
       
       {/* Header */}
       <div className="flex justify-between items-center w-full text-xl font-semibold text-gray-800">
@@ -18,7 +18,7 @@ function Search( ) {
       
       {/* Route 1 */}
       <h1 className="text-lg font-semibold">Route: 1</h1>
-      <div className="bg-white shadow-md rounded-lg p-6 flex flex-col gap-6 lg:gap-12 lg:flex-row justify-center items-center hover:scale-105 hover:bg-gray-200">
+      <div className="bg-slate-100 shadow-md rounded-lg p-6 flex flex-col gap-6 lg:gap-12 lg:flex-row justify-center items-center hover:scale-105 hover:bg-slate-200">
         {/* Dynamic Station 1 */}
         <div className="flex flex-col items-center">
           <div className="bg-blue-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">
@@ -31,7 +31,7 @@ function Search( ) {
         
         {/* Arrow Line */}
         <div className="relative w-20 lg:w-32 flex items-center">
-          <div className="bg-gradient-to-r from-cyan-500 to-purple-500 h-[2px] w-full"></div>
+          <div className="bg-gradient-to-r from-cyan-500  to-purple-500 h-[2px] w-full"></div>
           <svg className="absolute -right-2 w-6 h-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
           </svg>
@@ -77,7 +77,7 @@ function Search( ) {
 
       {/* Route 2 */}
       <h1 className="text-lg font-semibold">Route: 2</h1>
-      <div className="bg-white shadow-md rounded-lg p-6 flex flex-col gap-6 lg:gap-12 lg:flex-row justify-center items-center hover:scale-105 hover:bg-gray-200">
+      <div className="bg-slate-100 shadow-md rounded-lg p-6 flex flex-col gap-6 lg:gap-12 lg:flex-row justify-center items-center hover:scale-105 hover:bg-slate-200">
         {/* Dynamic Station 1 */}
         <div className="flex flex-col items-center">
           <div className="bg-blue-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">
@@ -152,14 +152,14 @@ function Search( ) {
 
       {/* Route 3 */}
       <h1 className="text-lg font-semibold">Route: 3</h1>
-      <div className="bg-white shadow-md rounded-lg p-6 flex flex-col gap-6 lg:gap-12 lg:flex-row justify-center items-center hover:scale-105 hover:bg-gray-200">
+      <div className="bg-slate-100 shadow-md rounded-lg p-6 flex flex-col gap-6 lg:gap-12 lg:flex-row justify-center items-center hover:scale-105 hover:bg-slate-200">
         {/* Dynamic Station 1 */}
         <div className="flex flex-col items-center">
           <div className="bg-blue-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">
             {fromStation[0]}
           </div>
           <div className="mt-2 text-lg font-semibold">{fromStation}</div>
-          <div className="text-sm text-gray-600">Dep: 08:30 AM</div>
+          <div className="text-sm  text-gray-600">Dep: 08:30 AM</div>
           <div className="text-xs text-gray-500">Distance: 0 km</div>
         </div>
         
@@ -241,7 +241,14 @@ function Search( ) {
         <button className="bg-cyan-500 text-white py-2 px-6 rounded-lg hover:bg-cyan-600 transition-all">Select</button>
       </div>
 
-    </div>
+
+     <div className="text-center">
+        <a href="/" className="bg-teal-600 my-6 text-white py-3 px-8 rounded-full inline-block hover:bg-teal-500 transition duration-300 focus:ring-4 focus:ring-teal-300 shadow-lg">
+          Back to Home
+        </a>
+      </div>
+
+    </div> 
   </div>
   );
 }

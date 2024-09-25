@@ -2,10 +2,14 @@
 
 import React from 'react';
 import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+
 
 const Footer = () => {
+
+  const navigate=useNavigate();
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900  bottom-0 right-0 left-0 text-white py-12">
       <div className="container mx-auto px-4">
       
         <div className="flex flex-col lg:flex-row justify-between items-center mb-8">

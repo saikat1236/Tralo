@@ -71,7 +71,7 @@ const Home = () => {
     .sort();
 
   return (
-    <div className="relative bg-my-img bg-fixed bg-cover bg-center h-screen flex flex-col justify-center items-center pt-10">
+    <div className="relative  bg-my-img bg-fixed bg-cover bg-center h-screen flex flex-col justify-center items-center pt-10">
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Search Form Section */}
@@ -98,7 +98,7 @@ const Home = () => {
                   <li
                     key={index}
                     onClick={() => handleFromOptionClick(option)}
-                    className="px-4 py-2 hover:bg-gray-200 cursor-pointer"
+                    className="px-4 py-2 hover:bg-slate-200 cursor-pointer"
                   >
                     {option}
                   </li>
@@ -124,7 +124,7 @@ const Home = () => {
                   <li
                     key={index}
                     onClick={() => handleToOptionClick(option)}
-                    className="px-4 py-2 hover:bg-gray-200 cursor-pointer"
+                    className="px-4 py-2 hover:bg-slate-200 cursor-pointer"
                   >
                     {option}
                   </li>
@@ -138,7 +138,7 @@ const Home = () => {
             type="date"
             value={toDate}
             onChange={(e) => setDate(e.target.value)}
-            className="p-3 text-2xl w-52 font-semibold text-gray-400 rounded-lg border border-gray-300 shadow-md focus:outline-none focus:ring-2 hover:bg-gray-200 focus:ring-black transition duration-300 bg-white lg:h-16"
+            className="p-3 text-2xl w-52 font-semibold text-gray-400 rounded-lg border border-gray-300 shadow-md focus:outline-none focus:ring-2 hover:bg-slate-200 focus:ring-black transition duration-300 bg-white lg:h-16"
           />
 
           {/* Search Button */}

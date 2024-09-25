@@ -4,7 +4,7 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <section className="bg-gradient-to-br from-cyan-300 via-slate-200 to-purple-300 pt-8 mt-32 mb-20 shadow-black shadow-2xl py-12 px-6 md:py-16 md:px-12 rounded-lg max-w-5xl mx-auto">
+    <section className="bg-white pt-8 mt-32 mb-20 shadow-black shadow-2xl py-12 px-6 md:py-16 md:px-12 rounded-lg max-w-5xl mx-auto">
       <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-6 tracking-wide leading-tight">
         Our Services
         <p className="text-2xl mt-2 font-semibold text-gray-700">Redefining Train Route Navigation</p>
@@ -47,14 +47,14 @@ const Services = () => {
       </div>
       
       <div className="bg-white p-6 rounded-lg shadow-lg mb-8">
-        <h2 className="text-2xl font-bold text-teal-600 mb-4 text-center">Plan Smarter, Travel Better</h2>
+        <h2 className="text-2xl font-bold text-cyan-400 mb-4 text-center">Plan Smarter, Travel Better</h2>
         <p className="text-gray-700 text-center">
           Whether it’s a straightforward ride or a multi-station transfer, Trelo ensures you get the most efficient travel experience.
         </p>
       </div>
 
       <div className="text-center">
-        <a href="/" className="bg-teal-600 text-white py-3 px-8 rounded-full inline-block hover:bg-teal-500 transition duration-300 focus:ring-4 focus:ring-teal-300 shadow-lg">
+        <a href="/" className="bg-cyan-400 text-black font-semibold py-3 px-8 rounded-full inline-block hover:bg-cyan-500 transition duration-300 focus:ring-4 focus:ring-cyan-300 shadow-lg">
           Back to Home
         </a>
       </div>
