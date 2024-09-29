@@ -2,10 +2,14 @@
 
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import { trainRoutes } from '../databases/TrainDB';
 
 function Search( ) {
     const location=useLocation();
     const {fromStation ,toStation,toDate}=location.state
+    const filteredRoutes = trainRoutes.filter(route => 
+      route.from === fromStation && route.to === toStation
+    );
   return (
     <div className="relative mt-10 bg-white py-16 px-4 w-full flex justify-center items-center ">
     <div className="bg-white shadow-black py-12 px-6 rounded-lg flex flex-col gap-6 shadow-lg max-w-6xl mx-auto">
@@ -74,6 +78,10 @@ function Search( ) {
       <div className="flex justify-center mt-4">
         <button className="bg-cyan-500 text-white py-2 px-6 rounded-lg hover:bg-cyan-600 transition-all">Select</button>
       </div>
+
+
+
+
 
       {/* Route 2 */}
       <h1 className="text-lg font-semibold">Route: 2</h1>

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { citiesInIndia } from "./Cities";
+import { citiesInIndia } from "../databases/Cities";
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
@@ -72,16 +72,23 @@ const Home = () => {
 
   return (
     <div className="relative  bg-my-img bg-fixed bg-cover bg-center h-screen flex flex-col justify-center items-center pt-10">
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+       <video
+        className="absolute inset-0 w-full h-full object-cover"
+        src="/src/photos/1321208-uhd_3840_2160_30fps.mp4"
+        autoPlay
+        loop
+        muted
+      />
+       {/* <div className="absolute inset-0 bg-black opacity-50"></div>  */}
 
-      {/* Search Form Section */}
+     
       <div className="relative rounded-xl max-w-4xl w-full bg-white shadow-xl flex flex-col justify-center items-center text-center py-12 px-6 md:px-12 lg:px-16">
         <h1 className="text-3xl lg:text-4xl font-bold text-black mb-6">
           Welcome to Our Website TRELO!
         </h1>
         <div className="flex text-xl text-semibold flex-col lg:flex-row justify-center items-center space-y-6 lg:space-y-0 lg:space-x-6 w-full">
 
-          {/* From Station Dropdown */}
+         
           <div ref={fromDropdownRef} className="relative w-full lg:w-full">
             <input
               type="text"
@@ -91,7 +98,7 @@ const Home = () => {
               placeholder="Select From Station"
               className="p-3 h-16 text-2xl w-52 font-semibold rounded-lg border border-gray-300 shadow-lg hover:bg-slate-200 duration-300"
             />
-
+  
             {isFromDropdownOpen && filteredFromOptions.length > 0 && (
               <ul className="absolute z-10 mt-2 w-full max-h-40 overflow-y-auto bg-white border border-gray-300 rounded-lg shadow-lg">
                 {filteredFromOptions.map((option, index) => (
@@ -107,7 +114,7 @@ const Home = () => {
             )}
           </div>
 
-          {/* To Station Dropdown */}
+          
           <div ref={toDropdownRef} className="relative w-full lg:w-full">
             <input
               type="text"
@@ -133,15 +140,16 @@ const Home = () => {
             )}
           </div>
 
-          {/* Date Picker */}
+         
           <input
             type="date"
             value={toDate}
             onChange={(e) => setDate(e.target.value)}
+            placeholder="dd-mm-yy"
             className="p-3 text-2xl w-52 font-semibold text-gray-400 rounded-lg border border-gray-300 shadow-md focus:outline-none focus:ring-2 hover:bg-slate-200 focus:ring-black transition duration-300 bg-white lg:h-16"
           />
 
-          {/* Search Button */}
+         
           <button
             onClick={handleSearch}
             className="bg-cyan-300 font-semibold text-2xl text-black rounded-lg px-6 py-2 shadow-cyan-500 shadow-lg hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200 transition duration-300 w-full lg:w-auto"

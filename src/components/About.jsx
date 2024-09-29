@@ -124,8 +124,8 @@ const About = () => {
         </div>
 
       </div>
-      <div className="text-center mt-12">
-        <a href="/" className="bg-teal-600 text-white py-3 px-6 rounded-full shadow-teal-800 shadow-lg hover:bg-teal-500 focus:ring-2 focus: ring-teal-300 transition duration-300">
+      <div className="text-center mt-20">
+        <a href="/" className="bg-cyan-400  text-black font-semibold py-3 px-6 rounded-full shadow-cyan-500 shadow-lg hover:bg-cyan-500 focus:ring-2 focus: ring-cyan-300 transition duration-300">
           Back to Home
         </a>
       </div>
