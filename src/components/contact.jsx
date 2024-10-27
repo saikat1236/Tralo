@@ -1,61 +1,76 @@
-import React from 'react';
-
 const Contact = () => {
   return (
-    <>
-    <div>
-    <div className=" mt-36  mb-36  bg-gray-200 rounded-2xl max-w-5xl mx-auto flex justify-center items-center  shadow-cyan-100 shadow-xl">
-      <div className=" ">
-        <h1 className="text-3xl m-16 p-5    text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia ad adipisci atque neque exercitationem hic sit? Mollitia culpa dolores repudiandae autem quisquam, rem ducimus, sit pariatur voluptate, porro perferendis?</h1>
-      </div>
-      <div className="bg-transparent min-h-screen max-w-screen flex justify-center items-center text-blue-600 p-5">
-        <div className="contact-form bg-transparent ">
-          <h2 className="text-3xl font-semibold text-amber-400 mb-4">Contact Us</h2>
-          <form id="contactForm">
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="w-full p-2 border rounded-md mb-2 bg-gradient-to-r text-white"
-            />
-            <label htmlFor="phone">Phone Number</label>
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              className="w-full p-2 border rounded-md mb-2 bg-gradient-to-r text-white"
-            />
-            <label htmlFor="email">E-mail</label>
-            <br/>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className=" p-2 border rounded-md mb-2 bg-gradient-to-r text-white"
-            />
-            <br/>
-            <label htmlFor="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              className="w-full p-2 border rounded-md mb-4 bg-gradient-to-r text-white "
-            ></textarea>
-            <input
+    <div className="min-h-screen bg-gradient-to-r from-gray-50 to-gray-200 flex items-center justify-center px-4 mt-10">
+      <div className="bg-white rounded-3xl shadow-lg max-w-4xl w-full p-10 sm:p-16 md:flex md:space-x-8">
+        
+        {/* Left Section */}
+        <div className="flex-1 mb-8 md:mb-0">
+          <h1 className="text-4xl font-bold text-gray-800 leading-tight">
+            Get in Touch
+          </h1>
+          <p className="text-gray-600 mt-4">
+            We’re here to help you with anything you need. Fill out the form and our team will get back to you as soon as possible.
+          </p>  
+        </div>
+
+        {/* Contact Form Section */}
+        <div className="flex-1">
+          <h2 className="text-3xl font-semibold text-blue-500 mb-6">Contact Us</h2>
+          <form id="contactForm" className="space-y-6">
+            <div>
+              <label htmlFor="name" className="block text-gray-700">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition ease-in-out duration-200"
+                placeholder="Your name"
+              />
+            </div>
+            
+            <div>
+              <label htmlFor="phone" className="block text-gray-700">Phone Number</label>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition ease-in-out duration-200"
+                placeholder="Your phone number"
+              />
+            </div>
+            
+            <div>
+              <label htmlFor="email" className="block text-gray-700">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition ease-in-out duration-200"
+                placeholder="Your email"
+              />
+            </div>
+            
+            <div>
+              <label htmlFor="message" className="block text-gray-700">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition ease-in-out duration-200"
+                placeholder="Your message"
+              ></textarea>
+            </div>
+            
+            <button
               type="submit"
-              value="Send Message"
-              className="cursor-pointer px-4 py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600"
-            />
+              className="w-full py-3 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition ease-in-out duration-200 shadow-md"
+            >
+              Send Message
+            </button>
           </form>
         </div>
       </div>
-      </div>
-      </div>
-      <script>
-        // Add JavaScript functionality here (e.g., form validation, submission handling)
-      </script>
-    </>
+    </div>
   );
 };
 
