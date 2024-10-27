@@ -14,4 +14,4 @@ export const citiesInIndia = [
     "Rishikesh", "Raurkela", "Siliguri", "Shimla", "Satna", "Srinagar",
     "Surat", "Thane", "Udaipur", "Vadodara", "Vijayawada", "Visakhapatnam"
   ];
-  
+ 
