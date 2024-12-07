@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { citiesInIndia } from "../databases/Cities";
 import { useNavigate } from 'react-router-dom';
+import Search from "./Search";
 
 const Home = () => {
   const [toStation, setToStation] = useState("");
@@ -95,7 +96,7 @@ const Home = () => {
               value={fromSearchTerm || fromStation}
               onClick={() => setIsFromDropdownOpen(!isFromDropdownOpen)}
               onChange={(e) => setFromSearchTerm(e.target.value)}
-              placeholder="Select From Station"
+              placeholder="From"
               className="p-3 h-16 text-2xl w-52 font-semibold rounded-lg border border-gray-300 shadow-lg hover:bg-slate-200 duration-300"
             />
   
@@ -121,7 +122,7 @@ const Home = () => {
               value={toSearchTerm || toStation}
               onClick={() => setIsToDropdownOpen(!isToDropdownOpen)}
               onChange={(e) => setToSearchTerm(e.target.value)}
-              placeholder="Select To Station"
+              placeholder="To"
               className="p-3 h-16 text-2xl w-52 font-semibold rounded-lg border border-gray-300 shadow-lg hover:bg-slate-200 duration-300"
             />
 

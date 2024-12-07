@@ -1,7 +1,5 @@
 // src/components/Services.jsx
 
-import React from 'react';
-
 const Services = () => {
   return (
     <section className="bg-white pt-8 mt-32 mb-20 shadow-black shadow-2xl py-12 px-6 md:py-16 md:px-12 rounded-lg max-w-5xl mx-auto">
